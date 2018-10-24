@@ -21,7 +21,7 @@ class TextController extends Controller
 
     public function index()
     {
-
+        echo "test";
 
         $this->soapWrapper->add("Currency", function ($service) {
             $service
