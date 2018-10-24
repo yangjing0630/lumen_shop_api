@@ -11,6 +11,8 @@
 |
 */
 
-$app->get('/', function () use ($app) {
-    return $app->version();
+$router->get('/', function () use ($router) {
+    return $router->app->version();
 });
+
+$router->get('text/index', 'TextController@index');
