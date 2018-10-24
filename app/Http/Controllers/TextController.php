@@ -21,7 +21,7 @@ class TextController extends Controller
 
     public function test()
     {
-        echo "test";
+        echo "hello";
     }
 
     public function index()
