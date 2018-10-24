@@ -19,6 +19,11 @@ class TextController extends Controller
 
     }
 
+    public function test()
+    {
+        echo "test";
+    }
+
     public function index()
     {
 
