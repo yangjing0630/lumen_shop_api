@@ -21,6 +21,7 @@ class TextController extends Controller
 
     public function test()
     {
+        echo "liuminquan";
         echo "123";
         echo "hello";
     }
@@ -28,6 +29,7 @@ class TextController extends Controller
     public function index()
     {
 
+        echo "hello";
 
         $this->soapWrapper->add("Currency", function ($service) {
             $service
