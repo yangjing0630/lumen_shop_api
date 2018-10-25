@@ -22,6 +22,7 @@ class TextController extends Controller
     public function test()
     {
         echo "liuminquan";
+        echo "123";
         echo "hello";
     }
 
